@@ -59,7 +59,7 @@ const SidebarChatList: FC<SidebarChatListProps> = ({ friends, sessionId }) => {
         }
 
 
-    }, [])
+    }, [pathname, sessionId, router])
 
     useEffect(() => {
         if (pathname?.includes('chat')) {
