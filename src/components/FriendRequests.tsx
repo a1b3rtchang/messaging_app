@@ -14,7 +14,7 @@ interface FriendRequestsProps {
 
 const FriendRequests: FC<FriendRequestsProps> = ({
     incomingFriendRequests,
-    sessionId,
+    sessionId, 
 }) => {
 
     const router = useRouter()
